@@ -1,0 +1,39 @@
+.nav{
+    font-family: "Heebo", sans-serif;
+    background: rgb(250, 250, 250);
+    border-top: 1px solid rgb(219, 229, 230);
+    border-bottom: 1px solid rgb(219, 229, 230);
+    position: sticky;
+    top: 0px;
+    z-index: 80;
+    margin-bottom: 2rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title{
+        margin: 0 0 0 3rem;
+        padding: 0.5rem 2rem;
+        border-left: solid 0.5px rgb(219, 229, 230);
+        border-right: solid 0.5px rgb(219, 229, 230);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .left{
+        text-transform: uppercase; 
+        font-size: small;
+        display: flex;
+        margin: 0 3rem 0 0;
+
+        .sort{
+            padding: 1.15rem 1rem;
+            border-left: solid 0.5px rgb(219, 229, 230);
+            border-right: solid 0.5px rgb(219, 229, 230);
+            &:hover{
+                background-color: rgb(219, 229, 230);
+            }
+        }
+    }
+}
